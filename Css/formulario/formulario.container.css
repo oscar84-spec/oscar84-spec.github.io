@@ -1,0 +1,8 @@
+.formulario{
+    /* border: black solid; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    height: 350px;
+    background-color: var(--primary-button);
+}

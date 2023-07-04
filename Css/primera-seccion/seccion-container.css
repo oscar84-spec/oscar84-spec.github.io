@@ -1,0 +1,40 @@
+.primera__seccion{
+    /* border: red solid; */
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.container__primera{
+    /* border: black solid; */
+    width: 83vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+}
+.titulo__section{
+    /* border: blue solid; */
+    width: max-content;
+    display: flex;
+    align-items: center;
+    font-family: oswald, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--text);
+}
+.link{
+    /* border: blueviolet solid; */
+    width: 100px;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: oswald, sans-serif;
+    font-size: 1.2rem;
+
+}
+.icon__arrow{
+    width: 30px;
+    height: 30px;
+}

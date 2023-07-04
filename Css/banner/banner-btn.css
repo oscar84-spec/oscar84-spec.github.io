@@ -1,0 +1,15 @@
+.banner__btn{
+    margin-top: 20px;
+    margin-left: 100px;
+    height: 50px;
+    background-color: var(--accent);
+    color: var(--background);
+    transition: 550ms;
+    font-family: oswald, sans-serif;
+    width: 120px;
+    font-size: 1.2rem;
+}
+.banner__btn:hover{
+    cursor: pointer;
+    transform: scale(110%);
+}

@@ -1,0 +1,6 @@
+.precio__producto{
+    font-family: oswald, sans-serif;
+    font-size: 1rem;
+    color: var(--text);
+    margin: 0 0 10px 10px;
+}

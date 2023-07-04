@@ -1,0 +1,8 @@
+.titulo__footer{
+    font-family: oswald, sans-serif;
+    font-size: 1.3rem;
+    color: var(--text);
+}
+.titulo__footer--bold{
+    font-weight: bold;
+}

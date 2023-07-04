@@ -1,0 +1,24 @@
+.container__btn {
+    /* border: blueviolet solid; */
+    margin-right: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+
+}
+
+.header__btn {
+    width: 80%;
+    height: 50px;
+    background-color: var(--secondary-button);
+    border: var(--accent) 2px solid;
+    color: var(--text);
+    transition: scale 700ms;
+}
+.header__btn:hover{
+    background-color: var(--accent);
+    color: var(--background);
+    cursor: pointer;
+    scale: 110%;
+}

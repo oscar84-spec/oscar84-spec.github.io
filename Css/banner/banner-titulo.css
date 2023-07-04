@@ -1,0 +1,8 @@
+.banner__titulo{
+    color: var(--background);
+    /* border: white solid; */
+    font-size: 5rem;
+    font-family: var(--fuente-titulo);
+    margin-left: 100px;
+    padding-top: 70px;
+}

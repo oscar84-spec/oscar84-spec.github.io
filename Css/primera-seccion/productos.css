@@ -1,0 +1,15 @@
+.container__card {
+    /* border: black solid; */
+    width: max-content;
+    height: max-content;
+}
+
+.productos {
+    /* border: blueviolet solid; */
+    width: 83vw;
+    height: max-content;
+    margin-left: 100px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}

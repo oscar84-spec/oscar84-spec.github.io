@@ -1,0 +1,19 @@
+:root {
+    --text: #020302;
+    --background: #f6f8f6;
+    --primary-button: #b9cbc1;
+    --secondary-button: #ffffff;
+    --accent: #7ea09f;
+    --fuente-titulo: damage;
+
+    /* https://realtimecolors.com/?colors=020302-f6f8f6-b9cbc1-ffffff-7ea09f */
+}
+
+body {
+    background-color: var(--background);
+}
+
+@font-face {
+    font-family: damage;
+    src: url(/fuentes/DamageplanPersonalUseBold-2Od9W.ttf);
+}

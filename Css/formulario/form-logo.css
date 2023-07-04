@@ -1,0 +1,11 @@
+.form__logo{
+    /* border: hsl(0, 100%, 50%) solid; */
+    width: 250px;
+    height: 150px;
+    background: center no-repeat;
+    background-size: contain;
+    margin-top: 15px;
+}
+.form__logo--img{
+    background-image: url(/img/Logo2.svg);
+}

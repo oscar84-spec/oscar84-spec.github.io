@@ -1,0 +1,21 @@
+.form__lista{
+    /* border: blue solid; */
+    width: max-content;
+    height: max-content;
+    margin-top: 50px;
+    width: 250px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.element__list{
+    font-family: oswald, sans-serif;
+    font-size: 1.3rem;
+    color: var(--text);
+}
+.element__list:hover{
+    color: var(--accent);
+    transform: scale(105%);
+    transition: 400ms;
+}

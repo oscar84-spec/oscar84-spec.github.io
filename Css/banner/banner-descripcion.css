@@ -1,0 +1,12 @@
+.banner__descripcion{
+    color: var(--background);
+    margin-left: 100px;
+    padding-top: 25px;
+    font-size: 2rem;
+    font-family: oswald, sans-serif;
+}
+.banner__bold{
+    font-weight: 700;
+    color: var(--accent);
+    transition: 600ms;
+}

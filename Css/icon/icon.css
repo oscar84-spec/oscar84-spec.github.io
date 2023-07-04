@@ -1,0 +1,14 @@
+.container__icon {
+    display: flex;
+    align-items: center;
+    /* border: aqua solid; */
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.icon {
+    color: var(--primary-button);
+}

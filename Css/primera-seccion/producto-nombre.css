@@ -1,0 +1,7 @@
+.nombre__producto{
+    font-family: oswald, sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--accent);
+    margin: 10px 0 10px 10px;
+}
