@@ -9,3 +9,8 @@
 .form__logo--img{
     background-image: url(/img/Logo2.svg);
 }
+@media screen and (max-width:768px) {
+    .form__logo{
+        margin-top: 0;
+    }
+}

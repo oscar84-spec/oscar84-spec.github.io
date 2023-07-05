@@ -1,7 +1,19 @@
 .header {
-    /* border: black solid; */
     display: flex;
     justify-content: space-between;
     background-color: var(--background);
     padding: 20px 0;
+}
+@media screen and (max-width:768px) {
+    .header{
+        display: flex;
+        align-items: center;
+    }
+}
+@media screen and (max-width:375px) {
+    .header{
+        display: flex;
+        justify-content: space-evenly;
+        border: aqua solid;
+    }
 }

@@ -6,3 +6,15 @@
     margin-left: 100px;
     padding-top: 70px;
 }
+@media screen and (max-width:768px) {
+    .banner__titulo{
+        font-size: 3rem;
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width:375px) {
+    .banner__titulo{
+        font-size: 2.5rem;
+        margin-left: 20px;
+    }
+}

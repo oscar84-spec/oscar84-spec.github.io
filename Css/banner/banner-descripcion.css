@@ -10,3 +10,15 @@
     color: var(--accent);
     transition: 600ms;
 }
+@media screen and (max-width:768px) {
+    .banner__descripcion{
+        margin-left: 20px;
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width:375px) {
+    .banner__descripcion{
+        margin-left: 20px;
+        font-size: 1.3rem;
+    }
+}

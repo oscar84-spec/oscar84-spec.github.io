@@ -1,18 +1,15 @@
 .header__container {
-    /* border: blue solid; */
     width: 50vw;
     display: flex;
     justify-content: space-between;
 }
 
 .header__logo {
-    /* border: teal solid; */
     width: 182px;
     margin-left: 120px;
 }
 
 .header__form {
-    /* border: red solid; */
     display: flex;
     align-items: center;
     margin-right: 0px;
@@ -39,5 +36,31 @@
     border: none;
     width: 85%;
     border-right: var(--accent) solid 2px;
-    color: var(--background);
+    color: var(--text);
+    padding-left: 15px;
+}
+
+@media screen and (max-width:768px) {
+    .header__container{
+        max-width: 50vw;
+    }
+    .header__logo{
+        margin-left: 20px;
+        max-width: 120px;
+    }
+    .form__container{
+        height: 20px;
+    }
+    .header__buscador{
+        height: 20px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .header__container{
+        width: max-content;
+    }
+    .form__container{
+        display: none;
+    }
 }

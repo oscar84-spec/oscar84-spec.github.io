@@ -9,3 +9,9 @@
     border-bottom: var(--accent) solid;
     background-image: url(/img/competition.png);
 }
+@media screen and (max-width:375px) {
+    .container__img{
+        width: 115px;
+        height: 170px;
+    }
+}

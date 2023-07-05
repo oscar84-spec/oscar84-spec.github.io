@@ -1,5 +1,4 @@
 .container__btn {
-    /* border: blueviolet solid; */
     margin-right: 120px;
     display: flex;
     justify-content: center;
@@ -21,4 +20,19 @@
     color: var(--background);
     cursor: pointer;
     scale: 110%;
+}
+@media screen and (max-width:768px) {
+    .container__btn{
+        margin-right: 80px;
+        height: max-content;
+    }
+    .header__btn{
+        width: 60%;
+        height: 35px;
+    }
+    .header__btn:hover{
+        background-color: var(--background);
+        color: var(--text);
+        scale: 100%;
+    }
 }

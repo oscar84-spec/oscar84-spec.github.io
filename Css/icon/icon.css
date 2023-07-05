@@ -12,3 +12,15 @@
 .icon {
     color: var(--primary-button);
 }
+@media screen and (max-width:768px) {
+    .container__icon{
+        /* border: red solid; */
+        width: 25px;
+        margin-right: 0;
+        margin-left: 5px;
+    }
+    .icon{
+        width: 15px;
+        height: 15px;
+    }
+}

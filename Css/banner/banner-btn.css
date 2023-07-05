@@ -13,3 +13,16 @@
     cursor: pointer;
     transform: scale(110%);
 }
+@media screen and (max-width:768px) {
+    .banner__btn{
+        margin-left: 20px;
+        height: 35px;
+    }
+}
+@media screen and (max-width:375px) {
+    .banner__btn{
+        margin-left: 20px;
+        font-size: 1rem;
+        height: 35px;
+    }
+}

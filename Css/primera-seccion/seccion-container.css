@@ -38,3 +38,25 @@
     width: 30px;
     height: 30px;
 }
+@media screen and (max-width:768px) {
+    .primera__seccion{
+        width: 100%;
+        height: max-content;
+    }
+    .container__primera{
+        margin-left: 20px;
+        width: 94%;
+    }
+}
+@media screen and (max-width:375px) {
+    .primera__seccion{
+        height: max-content;
+
+    }
+    .container__primera{
+        width: 90%;
+    }
+    .titulo__section{
+        font-size: 1.5rem;
+    }
+}

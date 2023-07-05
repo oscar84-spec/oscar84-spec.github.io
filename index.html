@@ -42,7 +42,8 @@
             <img src="/img/Logo2.svg" alt="Logo" class="header__logo">
             <form action="" class="header__form">
                 <div class="form__container">
-                    <input type="text" name="buscador" id="buscador" class="header__buscador" placeholder="Buscar Producto">
+                    <input type="text" name="buscador" id="buscador" class="header__buscador"
+                        placeholder="Buscar Producto">
                     <i class="container__icon">
                         <img src="/Icon/magnifying-glass-solid.svg" alt="" class="icon">
                     </i>
@@ -201,20 +202,25 @@
         </div>
     </section>
     <section class="formulario">
-        <div class="form__logo form__logo--img"></div>
-        <ul class="form__lista">
-            <li class="element__list"><a href="#">Quienes Somos</a></li>
-            <li class="element__list"><a href="#">Politica de privacidad</a></li>
-            <li class="element__list"><a href="#">Programas de fidelidad</a></li>
-            <li class="element__list"><a href="#">Nuestras tiendas</a></li>
-            <li class="element__list"><a href="#">Quiero ser franquiciado</a></li>
-            <li class="element__list"><a href="#">Anuncie aquí</a></li>
-        </ul>
+        <div class="info">
+            <div class="form__logo form__logo--img"></div>
+            <ul class="form__lista">
+                <li class="element__list"><a href="#">Quienes Somos</a></li>
+                <li class="element__list"><a href="#">Politica de privacidad</a></li>
+                <li class="element__list"><a href="#">Programas de fidelidad</a></li>
+                <li class="element__list"><a href="#">Nuestras tiendas</a></li>
+                <li class="element__list"><a href="#">Quiero ser franquiciado</a></li>
+                <li class="element__list"><a href="#">Anuncie aquí</a></li>
+            </ul>
+        </div>
         <form action="" class="formulario__info">
             <h2 class="form__titulo">Habla con nosotros</h2>
-            <label for="name" class="tag__nombre"><p class="label__nombre">Nombre</p></label>
+            <label for="name" class="tag__nombre">
+                <p class="label__nombre">Nombre</p>
+            </label>
             <input type="text" name="name" id="name" class="form__nombre">
-            <textarea name="msj" id="msj" cols="30" rows="10" class="form__msj" placeholder="Escribe tu mensaje"></textarea>
+            <textarea name="msj" id="msj" cols="30" rows="10" class="form__msj"
+                placeholder="Escribe tu mensaje"></textarea>
             <input type="submit" value="Enviar Mensaje" class="form__btn">
         </form>
     </section>
